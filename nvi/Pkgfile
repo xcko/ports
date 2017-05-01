@@ -1,0 +1,25 @@
+# Description: vi clone
+# URL: https://sites.google.com/a/bostic.com/keithbostic/vi/
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: ncurses
+
+name=nvi
+version=1.79
+release=1
+source=(https://sites.google.com/a/bostic.com/keithbostic/files/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	cd build
+	./configure --disable-curses \
+		--prefix=/usr \
+		--program-prefix=n
+	make
+	install -Dm755 nvi $PKG/usr/bin/nvi
+	install -Dm755 nex $PKG/usr/bin/nex
+	ln -sr $PKG/usr/bin/nvi $PKG/usr/bin/vi
+	ln -sr $PKG/usr/bin/nex $PKG/usr/bin/ex
+	cd ../docs/USD.doc/vi.man
+	install -Dm644 vi.1 $PKG/usr/share/man/man1/vi.1
+}

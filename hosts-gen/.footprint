@@ -1,0 +1,7 @@
+drwxr-xr-x	root/root	bin/
+-rwxr-xr-x	root/root	bin/gethostszero
+-rwxr-xr-x	root/root	bin/hosts-gen
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/hosts.d/
+-rw-r--r--	root/root	etc/hosts.d/00-hosts.header
+-rw-r--r--	root/root	etc/hosts.d/01-hosts.local

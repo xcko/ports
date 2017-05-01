@@ -1,0 +1,26 @@
+# Description: Create hosts file from files in hosts.d
+# URL: http://git.r-36.net/hosts-gen
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: curl
+
+name=hosts-gen
+version=git-e3569ca
+sversion=e3569caf618a25ac8edd49c44c81b188bd624b3b
+release=1
+source=()
+gitsource=http://git.r-36.net/hosts-gen
+
+build() {
+	if cd $name 2> /dev/null; then
+		git reset --hard
+		git pull $gitsource
+	else
+		git clone $gitsource $name
+		cd $name
+	fi
+
+	git checkout $sversion
+
+	make DESTDIR=$PKG install
+	install -Dm755 examples/gethostszero $PKG/bin/gethostszero
+}
