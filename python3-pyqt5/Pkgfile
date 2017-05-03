@@ -1,0 +1,21 @@
+# Description: Python bindings for Qt5 and qtwebkit
+# URL: http://riverbankcomputing.co.uk/software/pyqt/intro
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: python3 python3-setuptools python3-sip qt5 qtwebkit
+# OptDepends: qtwebengine
+
+name=python3-pyqt5
+version=5.8.2
+release=1
+source=(http://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-$version/PyQt5_gpl-$version.tar.gz)
+
+build() {
+	cd PyQt5_gpl-$version
+	mkdir -p $PKG/usr/share/sip/PyQt5
+	cp -a sip/* $PKG/usr/share/sip/PyQt5
+	python3 configure.py \
+		--confirm-license \
+		-q /usr/bin/qmake-qt5
+	make
+	make DESTDIR=$PKG INSTALL_ROOT=$PKG install
+}

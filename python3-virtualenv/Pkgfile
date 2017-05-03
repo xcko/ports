@@ -1,0 +1,14 @@
+# Description: Virtual Python Environment builder
+# URL:         http://www.virtualenv.org/
+# Maintainer:  xcko, xcko at bitmessage dot ch
+# Depends on:  python3-setuptools
+
+name=python3-virtualenv
+version=15.0.1
+release=1
+source=(https://pypi.io/packages/source/v/virtualenv/virtualenv-${version}.tar.gz)
+
+build() {
+    cd virtualenv-$version
+    python3 setup.py install --root=$PKG
+}

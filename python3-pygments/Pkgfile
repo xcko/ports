@@ -1,0 +1,15 @@
+# Description: Python syntax highlighter
+# URL: http://pygments.org
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: python3-setuptools
+
+name=python3-pygments
+version=2.2.0
+release=1
+source=(https://pypi.org/packages/source/P/Pygments/Pygments-$version.tar.gz)
+
+build() {
+	cd Pygments-$version
+	python3  setup.py install --root=$PKG --optimize=1
+	rm $PKG/usr/bin/pygmentize
+}

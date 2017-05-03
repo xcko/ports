@@ -1,0 +1,16 @@
+# Description: An XML/HTML/XHTML Markup safe string for Python
+# URL: http://pypi.python.org/pypi/MarkupSafe
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: python3 python3-setuptools
+
+name=python3-markupsafe
+version=1.0
+release=1
+source=(https://pypi.io/packages/source/M/MarkupSafe/MarkupSafe-$version.tar.gz)
+
+build() {
+	cd MarkupSafe-$version
+	python3 setup.py build
+	python3 setup.py test
+	python3 setup.py install --root=$PKG --optimize=1
+}

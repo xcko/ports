@@ -1,0 +1,16 @@
+# Description: Rips streaming radio and splits into tracks
+# URL: http://streamripper.sourceforge.net
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: libmad faa2 libvorbis
+
+name=streamripper
+version=1.64.6
+release=1
+source=(http://downloads.sourceforge.net/sourceforge/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

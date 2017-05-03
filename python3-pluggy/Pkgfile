@@ -1,0 +1,15 @@
+# Description: Plugin and hook calling mechanisms for Python
+# URL: https://www.pluggypayments.com/docs/python
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: python3-setuptools
+
+name=python3-pluggy
+version=0.4.0
+release=1
+source=(https://pypi.io/packages/source/p/pluggy/pluggy-$version.zip)
+
+build() {
+	cd pluggy-$version
+	python3 setup.py build
+	python3 setup.py install --root=$PKG --optimize=1
+}

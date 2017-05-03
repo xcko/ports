@@ -1,0 +1,15 @@
+# Description: library with ini-parsing, io, code, log facilities
+# URL: http://py.readthedocs.io
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: python3-setuptools
+
+name=python3-py
+version=1.4.33
+release=1
+source=(https://github.com/pytest-dev/py/archive/$version.tar.gz)
+
+build() {
+	cd py-$version
+	python3 setup.py build
+	python3 setup.py install --root=$PKG --optimize=1
+}

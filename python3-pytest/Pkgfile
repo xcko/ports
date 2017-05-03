@@ -1,0 +1,16 @@
+# Description: Simple powerful testing with Python
+# URL: http://pytest.org
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: python3-setuptools python3-py python3-hypothesis
+
+name=python3-pytest
+version=3.0.7
+release=1
+source=(https://github.com/pytest-dev/pytest/archive/$version.tar.gz)
+
+build() {
+	cd pytest-$version
+	python3 setup.py build
+	#python3 setup.py test
+	python3 setup.py install --root=$PKG --optimize=1
+}

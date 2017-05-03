@@ -1,0 +1,16 @@
+# Description: Python 3 bindings for C and C++ libraries
+# URL: http://www.riverbankcomputing.com/software/sip/intro
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: python3
+
+name=python3-sip
+version=4.19.2
+release=1
+source=(http://sourceforge.net/projects/pyqt/files/sip/sip-$version/sip-$version.tar.gz)
+
+build() {
+	cd sip-$version
+	python3 configure.py
+	make
+	make DESTDIR=$PKG install
+}
