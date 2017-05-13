@@ -1,0 +1,18 @@
+# Description: Minimalist floating window manager by Michael Cardell
+# URL: http://hack.org/mc/hacks/mcwm
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: xorg-xcb-util-wm xorg-xcb-util-keysyms
+
+name=mcwm
+version=20130209-2
+release=1
+source=(http://hack.org/mc/hacks/mcwm/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	sed -i s,/man/man1,/share/man/man1, Makefile
+	env CPPFLAGS="$CPPFLAGS -D_GNU_SOURCE" make
+	install -d $PKG/usr/bin
+	install -d $PKG/usr/share/man/man1
+	make PREFIX=$PKG/usr install
+}
