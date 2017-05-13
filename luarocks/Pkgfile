@@ -1,0 +1,16 @@
+# Description: Lua package manager
+# URL: https://luarocks.org
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: lua
+
+name=luarocks
+version=2.4.1
+release=1
+source=(https://luarocks.org/releases/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make build
+	make DESTDIR=$PKG install
+}
