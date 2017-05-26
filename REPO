@@ -68,6 +68,7 @@ f:9d081d63e0df75e0877508f80ab21b57:luarocks/.signature
 f:b27f6709cf87881033f232473bda725b:luarocks/Pkgfile
 f:832f091d3346fe9cefceabcf291a3a91:luarocks/.md5sum
 f:b15076b4f0f90adebcb0d7a247437d43:luarocks/.footprint
+f:b3377d8a87331a7c08c5e480fac99202:xcko.pub
 f:9d081d63e0df75e0877508f80ab21b57:python3-pyyaml/.signature
 f:f09c44f829ccf19261bb7a6cb32c7d09:python3-pyyaml/Pkgfile
 f:8aa338389e37d1c05a63f0134287fe6a:python3-pyyaml/.md5sum
