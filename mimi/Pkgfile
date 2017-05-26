@@ -1,0 +1,25 @@
+# Description: xdg-open alternative written in bash
+# URL: https://github.com/march-linux/mimi
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: bash dmenu
+
+name=mimi
+version=git-8e0070f
+sversion=8e0070f17bcd3612ee83cb84e663e7c7fabcca3d
+release=1
+source=()
+gitsource=https://github.com/march-linux/mimi
+
+build() {
+	if cd $name 2> /dev/null; then
+		git reset --hard
+		git pull $gitsource
+	else
+		git clone $gitsource $name
+		cd $name
+	fi
+
+	git checkout $sversion
+
+	make DESTDIR=$PKG install
+}
