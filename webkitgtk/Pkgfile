@@ -1,0 +1,57 @@
+# Description: GTK Web Engine with opengl and accelerated 2d canvas support
+# URL: https://www.webkitgtk.org/
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: cmake gst-plugins-base gtk gtk3 harfbuzz-icu libgudev libsecret libsoup libwebp ruby xorg-libxt cairo
+# Optional: enchant libnotify
+
+name=webkitgtk
+version=2.16.3
+release=1
+source=(https://webkitgtk.org/releases/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	# setting CC and CXX breaks compilation
+	if [ -n "$(pkginfo -i | grep '^ccache ')" ]; then
+		unset CC CXX
+		export PATH="/usr/lib/ccache/:$PATH"
+	fi
+
+	local SPELLCHECK
+	if [ "$(pkginfo -i | grep '^enchant ')" ]; then
+		SPELLCHECK=''
+	else
+		SPELLCHECK='-DENABLE_SPELLCHECK=OFF'
+        fi
+
+	local NOTIFY
+        if [ "$(pkginfo -i | grep '^libnotify ')" ]; then
+                NOTIFY='-DUSE_LIBNOTIFY=ON'
+        else
+                NOTIFY='-DUSE_LIBNOTIFY=OFF'
+        fi
+
+	install -d build
+	cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
+		-DCMAKE_INSTALL_LIBEXECDIR=/usr/lib \
+		-DCMAKE_SKIP_RPATH=ON \
+		-DPORT=GTK \
+		-DUSE_LIBHYPHEN=OFF \
+		-DENABLE_MINIBROWSER=OFF \
+		-DENABLE_X11_TARGET=ON \
+		-DUSE_GSTREAMER_GL=ON \
+		-DENABLE_INTROSPECTION=ON \
+		-DENABLE_ACCELERATED_2D_CANVAS=ON \
+		-Wno-dev \
+		-DENABLE_GEOLOCATION=OFF $SPELLCHECK $NOTIFY
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/locale
+}
