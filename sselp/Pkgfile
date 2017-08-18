@@ -1,0 +1,15 @@
+# Description: Simple X selection printer. Prints X selection to stdout
+# URL: http://tools.suckless.org/x/sselp
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on: xorg-server
+
+name=sselp
+version=0.2
+release=1
+source=(http://dl.suckless.org/tools/$name-$version.tar.gz)
+
+build() {
+        cd $name-$version
+        make
+        make PREFIX=/usr DESTDIR=$PKG install
+}
