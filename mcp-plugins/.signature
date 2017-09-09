@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xcko.pub
+RWRiSEuMHB8j9YIyA9bb6uaB+t24+7trof09kaD/CJmCgjprTLU9i7qKxE1kFrV8gJWtLo37DSKJkgwtb8TV7fQlJAFDdCMw0QM=
+SHA256 (Pkgfile) = 09f661525c0e2e6fbdf524efb069464bc9e404ab860deeffb33f94f43793d5c6
+SHA256 (.footprint) = 15d5d3a3a02dd8462f7a62b66e24d3e7690aeb8bf62ca0db0032c37206f8e86a
+SHA256 (MCP-plugins-0.4.0.tar.bz2) = 6c5bba81251ea03538ac3978279fea4065342b4267b0cd023dafca8268c84919

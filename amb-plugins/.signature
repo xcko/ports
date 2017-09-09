@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xcko.pub
+RWRiSEuMHB8j9Z2Jitx6d+R7X29mPHpqj71OPH6IOW/nlHlAU+ESvyIdgbkGg7tZvc5unr2H+QvI1ryJkFt//lEPo1vBhBLasA4=
+SHA256 (Pkgfile) = 5f34d58244bc7786ee774aa2242d5e1f6141091f14f6a9c4d7d9524b4e38b83e
+SHA256 (.footprint) = b0bf890f4cf1c5b43a312da153c295a6c9377a07eaf33e49ae56155a32b564ee
+SHA256 (AMB-plugins-0.8.1.tar.bz2) = f44a60b782948662537c0cb14befa6678d6dce790c64dc2c9058eab849a58b74

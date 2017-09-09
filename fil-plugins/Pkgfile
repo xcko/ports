@@ -1,0 +1,16 @@
+# Description: A four-band parametric equiliser ladspa plugin
+# URL:         http://kokkinizita.linuxaudio.org/linuxaudio/ladspa/index.html
+# Maintainer:  xcko, xcko at bitmessage dot ch
+# Depends on:  ladspa
+
+name=fil-plugins
+version=0.3.0
+release=1
+source=(http://kokkinizita.linuxaudio.org/linuxaudio/downloads/FIL-plugins-$version.tar.bz2)
+
+build() {
+    cd FIL-plugins-$version
+    make
+    install -d $PKG/usr/lib/ladspa
+    install -m 755 *.so $PKG/usr/lib/ladspa
+}

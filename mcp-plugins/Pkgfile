@@ -1,0 +1,16 @@
+# Description: A set of LADSPA plugins by Moog, and Costello
+# URL:         http://kokkinizita.linuxaudio.org/linuxaudio/ladspa/index.html
+# Maintainer:  xcko, xcko at bitmessage dot ch
+# Depends on:  ladspa
+
+name=mcp-plugins
+version=0.4.0
+release=1
+source=(http://kokkinizita.linuxaudio.org/linuxaudio/downloads/MCP-plugins-$version.tar.bz2)
+
+build() {
+    cd MCP-plugins-$version
+    make
+    install -d $PKG/usr/lib/ladspa
+    install -m 755 *.so $PKG/usr/lib/ladspa
+}

@@ -1,0 +1,7 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/ladspa/
+-rwxr-xr-x	root/root	usr/lib/ladspa/ambisonic0.so
+-rwxr-xr-x	root/root	usr/lib/ladspa/ambisonic1.so
+-rwxr-xr-x	root/root	usr/lib/ladspa/ambisonic2.so
+-rwxr-xr-x	root/root	usr/lib/ladspa/ambisonic3.so

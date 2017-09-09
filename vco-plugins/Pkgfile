@@ -1,0 +1,16 @@
+# Description: Set of plugins of anti-aliased oscillators
+# URL:         http://kokkinizita.linuxaudio.org/linuxaudio/ladspa/index.html
+# Maintainer:  xcko, xcko at bitmessage dot ch
+# Depends on:  ladspa
+
+name=vco-plugins
+version=0.3.0
+release=1
+source=(http://kokkinizita.linuxaudio.org/linuxaudio/downloads/VCO-plugins-$version.tar.bz2)
+
+build() {
+    cd VCO-plugins-$version
+    make
+    install -d $PKG/usr/lib/ladspa
+    install -m 755 *.so $PKG/usr/lib/ladspa
+}

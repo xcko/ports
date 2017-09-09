@@ -1,0 +1,16 @@
+# Description: A set of ambisonics LADSPA plugins
+# URL:         http://kokkinizita.linuxaudio.org/linuxaudio/
+# Maintainer:  xcko, xcko at bitmessage dot ch
+# Depends on:  ladspa
+
+name=amb-plugins
+version=0.8.1
+release=1
+source=(http://kokkinizita.linuxaudio.org/linuxaudio/downloads/AMB-plugins-$version.tar.bz2)
+
+build() {
+    cd AMB-plugins-$version
+    make
+    install -d $PKG/usr/lib/ladspa
+    install -m 755 *.so $PKG/usr/lib/ladspa
+}

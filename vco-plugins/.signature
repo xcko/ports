@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xcko.pub
+RWRiSEuMHB8j9V2DCZ0txuy5IYUavnYO4XPOBwvR0yVqQ16LbjGEozU83Juu9RGe2o5Ilo9VuTlLWsdoP7ziLHn/RNxLdVykMww=
+SHA256 (Pkgfile) = b1de8df6c401c38735ced8f2a2e15e99bb3f5a2cad2c2bb1e49ea9d9bfa11dd2
+SHA256 (.footprint) = 2f91909bfd775d87b8326660944580c8f8c6991019c5c0bb5ed0442a01a86693
+SHA256 (VCO-plugins-0.3.0.tar.bz2) = f4e93c22535fa9309577a322b1a7dbbd257ac6592bf90238ff271fb0c66bf8f7

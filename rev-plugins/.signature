@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xcko.pub
+RWRiSEuMHB8j9R+oT/bSWujbZVqEzKyb35yrReayq6+IEN7da94xlWiwYjpkQc5wqufH+vpDJgIHQIN7AlX5BW0CtDFPfgp64wo=
+SHA256 (Pkgfile) = 0c1012d3f108dc7baee5f7abb42e32b82baa00d6f708cd6de99ac60d7ac32da4
+SHA256 (.footprint) = 5326985b1d374682e9207677e1a54ee60489284f5874bc82bf6b1589a39c2dd8
+SHA256 (REV-plugins-0.7.1.tar.bz2) = e70d990453ff6cd28b530ac6f6647e2ad6e135fcd3ae544474f30250bb8d77c6
