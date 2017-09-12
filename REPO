@@ -24,6 +24,7 @@ d:rev-plugins
 d:python3-hypothesis
 d:python3-tox
 d:vco-plugins
+d:msmtp
 d:mcwm
 d:luarocks
 d:python3-jinja
@@ -133,6 +134,10 @@ f:4cd9a32a8f70e7de5d1ab3af707ebebd:vco-plugins/Pkgfile
 f:6abfe67d883e314fc528c28e739fad3d:vco-plugins/.md5sum
 f:e2f19d77006a13993fd698e80c833d07:vco-plugins/.signature
 f:1f7e35adb41e824f10aae161bda8ed1d:vco-plugins/.footprint
+f:bfe6796ebf6a52943a7e256138045013:msmtp/Pkgfile
+f:f8142c588b9a863f71c9ceb08c261cdf:msmtp/.md5sum
+f:1dfd8de9eebb6761391e3701d3016ecb:msmtp/.signature
+f:c693983382edb5ee53f5091ab5797be1:msmtp/.footprint
 f:72671db64bae60870c6f9ce7d894ba1c:mcwm/Pkgfile
 f:f04ceb28d99861ed80b036e3cc766c78:mcwm/.md5sum
 f:ebdb22db0e6b424810498d1ea65cc0dd:mcwm/.signature

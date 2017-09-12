@@ -1,0 +1,20 @@
+# Description: An SMTP client suitable for use with mutt etc.
+# URL:         http://msmtp.sourceforge.net/
+# Maintainer:  xcko, xcko at bitmessage dot ch
+# Depends on:  openssl
+
+name=msmtp
+version=1.6.6
+release=1
+source=(http://downloads.sourceforge.net/project/msmtp/msmtp/$version/$name-$version.tar.xz)
+
+build() {
+    cd $name-$version
+    ./configure --prefix=/usr \
+                --with-ssl=openssl \
+                --disable-nls \
+		--without-libsecret
+    make
+    make DESTDIR=$PKG install
+    rm -r $PKG/usr/share/info
+}

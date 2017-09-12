@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xcko.pub
+RWRiSEuMHB8j9fuBaddA7JmhC25k+RQzSmTXinwZTH1Vjxhbz4lL8jx4P/hUEN5jeNj7bUBlnATC1JcUfYa834xJh1CgRFPjUAM=
+SHA256 (Pkgfile) = 2845942566f4cedd04d54a8ec0e21602c54ec378f3821cac653552b13ade9197
+SHA256 (.footprint) = 51c5576063b2e54138b7ed393b4261984d9ebc5aa69d04c6a07e76b45dc1b3c0
+SHA256 (msmtp-1.6.6.tar.xz) = da15db1f62bd0201fce5310adb89c86188be91cd745b7cb3b62b81a501e7fb5e
