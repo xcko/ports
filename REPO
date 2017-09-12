@@ -1,12 +1,10 @@
 d:meh
-d:webkitgtk
 d:qutebrowser
 d:python3-virtualenv
 d:sselp
 d:python3-pluggy
 d:amb-plugins
 d:hosts-gen
-d:cairo
 d:mcp-plugins
 d:surfraw
 d:python3-py
@@ -33,10 +31,6 @@ f:568445ef25d23e9b4438f6181f6c8086:meh/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:meh/.md5sum
 f:ebdb22db0e6b424810498d1ea65cc0dd:meh/.signature
 f:98465b7c0102d9f26ccecfd1c0fb08e6:meh/.footprint
-f:60dd24c242def517fb4bc2b25e82b1a9:webkitgtk/Pkgfile
-f:62f377d15cc2898a4e2f00dc15bfa01f:webkitgtk/.md5sum
-f:ebdb22db0e6b424810498d1ea65cc0dd:webkitgtk/.signature
-f:e5a7128134d971b3a2b650d05bc2f917:webkitgtk/.footprint
 f:e76f6cbe222edaf9c2f6852ea0f99710:qutebrowser/Pkgfile
 f:02dabea41d0f4b20f4d22c3eeb1ef7c0:qutebrowser/.md5sum
 f:ebdb22db0e6b424810498d1ea65cc0dd:qutebrowser/.signature
@@ -61,10 +55,6 @@ f:acfde48b929ddecd0cef309612dc19a1:hosts-gen/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:hosts-gen/.md5sum
 f:ebdb22db0e6b424810498d1ea65cc0dd:hosts-gen/.signature
 f:20a3ffb8d8973a51aedfa85d11bdf493:hosts-gen/.footprint
-f:057ee106b2085fe428129a8d285dae73:cairo/Pkgfile
-f:2a2e0752f3c5cca66e387c133018b4e3:cairo/.md5sum
-f:ebdb22db0e6b424810498d1ea65cc0dd:cairo/.signature
-f:c46d855f7a222bf6eac4c17320bdda01:cairo/.footprint
 f:aa8392ec5b39a1cab5137e1d55da69ba:mcp-plugins/Pkgfile
 f:e68ba4d8d88e2aa23874cb3ad3de90ee:mcp-plugins/.md5sum
 f:b0e84034d704ff15ca54d545fd2006b7:mcp-plugins/.signature
