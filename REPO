@@ -142,9 +142,9 @@ f:72671db64bae60870c6f9ce7d894ba1c:mcwm/Pkgfile
 f:f04ceb28d99861ed80b036e3cc766c78:mcwm/.md5sum
 f:ebdb22db0e6b424810498d1ea65cc0dd:mcwm/.signature
 f:7fb4d4185483cbbacd6e822d0f05a148:mcwm/.footprint
-f:b27f6709cf87881033f232473bda725b:luarocks/Pkgfile
-f:832f091d3346fe9cefceabcf291a3a91:luarocks/.md5sum
-f:ebdb22db0e6b424810498d1ea65cc0dd:luarocks/.signature
+f:b7fb91d6aa7707c8c142a9a63052cdf4:luarocks/Pkgfile
+f:5b22f02633fb47c275503852b6e0f25a:luarocks/.md5sum
+f:95001fa0fc82eaf6f172eb917444b002:luarocks/.signature
 f:b15076b4f0f90adebcb0d7a247437d43:luarocks/.footprint
 f:d60a05a2f93c26d743a94a90064edca1:python3-jinja/Pkgfile
 f:90c422fa4c729bb6e4b7875908f20dec:python3-jinja/.md5sum
