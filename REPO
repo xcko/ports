@@ -1,4 +1,3 @@
-d:meh
 d:qutebrowser
 d:python3-virtualenv
 d:sselp
@@ -27,10 +26,6 @@ d:mcwm
 d:luarocks
 d:python3-jinja
 d:fil-plugins
-f:568445ef25d23e9b4438f6181f6c8086:meh/Pkgfile
-f:d41d8cd98f00b204e9800998ecf8427e:meh/.md5sum
-f:ebdb22db0e6b424810498d1ea65cc0dd:meh/.signature
-f:98465b7c0102d9f26ccecfd1c0fb08e6:meh/.footprint
 f:e76f6cbe222edaf9c2f6852ea0f99710:qutebrowser/Pkgfile
 f:02dabea41d0f4b20f4d22c3eeb1ef7c0:qutebrowser/.md5sum
 f:ebdb22db0e6b424810498d1ea65cc0dd:qutebrowser/.signature
