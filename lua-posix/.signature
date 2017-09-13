@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xcko.pub
+RWRiSEuMHB8j9YB2PefqwRYIwa2T0KrFeTmvseU9u33x71ZAKBESyQb7uopnwCuMW/QZysrZJ9gGWrExScjjvaU9mSGzqK4EQwU=
+SHA256 (Pkgfile) = e8f727f75a671ee5512cfe158c3e86373b0898c1223f3f13f3ad48ba6bf6c0f5
+SHA256 (.footprint) = f7e43846dfb977e9114b240854df569120875389fa8ee4d9efe35b31a9418afc
+SHA256 (release-v33.4.0.tar.gz) = e66262f5b7fe1c32c65f17a5ef5ffb31c4d1877019b4870a5d373e2ab6526a21

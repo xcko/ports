@@ -10,6 +10,7 @@ d:python3-py
 d:python3-pygments
 d:python3-pypeg
 d:python3-pytest
+d:lua-posix
 d:python3-pyqt5
 d:python3-sip
 d:python3-pyyaml
@@ -74,6 +75,10 @@ f:3c4c51801c9ca2c08746541bc8cd8685:python3-pytest/Pkgfile
 f:30ae9a27242fabd53536483ef93b97ae:python3-pytest/.md5sum
 f:ebdb22db0e6b424810498d1ea65cc0dd:python3-pytest/.signature
 f:4cd3fa4752d70a7415a58a033c45e4d6:python3-pytest/.footprint
+f:810c819530847825e60d58f72fb408c7:lua-posix/Pkgfile
+f:4fa79d3fff45e26fd23a6a69b0abd495:lua-posix/.md5sum
+f:b5920a15774d1034e575f35c0b4cccc2:lua-posix/.signature
+f:6d05d87c5d882f6eb109249a394f93c5:lua-posix/.footprint
 f:00cec2f6bf0d38e841123912e4e47396:python3-pyqt5/Pkgfile
 f:095ee85e52e7541d935124a3ed97a019:python3-pyqt5/.md5sum
 f:ebdb22db0e6b424810498d1ea65cc0dd:python3-pyqt5/.signature

@@ -1,0 +1,19 @@
+# Description: Posix bindings for Lua 5.3
+# URL:         https://github.com/luaposix/luaposix
+# Maintainer:  xcko, xcko at bitmessage dot ch
+# Depends on:  lua
+
+name=lua-posix
+version=33.4.0
+release=1
+source=(https://github.com/luaposix/luaposix/archive/release-v$version.tar.gz)
+
+build() {
+	cd luaposix-release-v$version
+
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/share/doc
+}
