@@ -26,6 +26,7 @@ d:msmtp
 d:mcwm
 d:luarocks
 d:python3-jinja
+d:lua-socket
 d:fil-plugins
 f:e76f6cbe222edaf9c2f6852ea0f99710:qutebrowser/Pkgfile
 f:02dabea41d0f4b20f4d22c3eeb1ef7c0:qutebrowser/.md5sum
@@ -140,6 +141,10 @@ f:d60a05a2f93c26d743a94a90064edca1:python3-jinja/Pkgfile
 f:90c422fa4c729bb6e4b7875908f20dec:python3-jinja/.md5sum
 f:ebdb22db0e6b424810498d1ea65cc0dd:python3-jinja/.signature
 f:a0f5abd966593454f90f4967fa450c9d:python3-jinja/.footprint
+f:d87ccdaf2f038ac3936aa49567cbcfd7:lua-socket/Pkgfile
+f:8511872949dff5b554e06ec3dfff6bb9:lua-socket/.md5sum
+f:bdfc9740bcf15456f9d1a664d744b507:lua-socket/.signature
+f:7e29bade0bcc9d7a94094c4f1e1bafe3:lua-socket/.footprint
 f:bafed82c90c1ee6ef53727eabd0d9246:fil-plugins/Pkgfile
 f:3b7262fe9c8311f2b2f7adcfe29b5892:fil-plugins/.md5sum
 f:5fd0ce196f488b0ab7f604e46a9f892b:fil-plugins/.signature

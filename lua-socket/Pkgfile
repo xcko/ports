@@ -1,0 +1,16 @@
+# Description: Networking for Lua 5.3
+# URL:         https://github.com/diegonehab/luasocket
+# Maintainer:  xcko, xcko at bitmessage dot ch
+# Depends on:  lua
+
+name=lua-socket
+version=3.0-rc1
+release=1
+source=(https://github.com/diegonehab/luasocket/archive/v$version.tar.gz)
+
+build() {
+	cd luasocket-$version
+
+	make LUAV=5.3 linux
+	make DESTDIR=$PKG LUAV=5.3 prefix=/usr install-unix
+}
