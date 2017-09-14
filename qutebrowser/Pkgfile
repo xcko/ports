@@ -1,7 +1,7 @@
 # Description: Vi like web browser inspired from dwb and vimperator
 # URL: http://www.qutebrowser.org
 # Maintainer: xcko, xcko at bitmessage dot ch
-# Depends on: python3 python3-setuptools python3-pyyaml python3-jinja python3-pypeg python3-pygments python3-pyqt5 qtwebengine
+# Depends on: python3 python3-setuptools python3-pyyaml python3-jinja python3-pypeg python3-pygments python3-pyqt5 qtwebengine asciidoc
 
 name=qutebrowser
 version=0.11.0
@@ -10,9 +10,13 @@ source=(https://github.com/qutebrowser/qutebrowser/releases/download/v$version/q
 
 build() {
 	cd $name-$version
+
 	a2x -f manpage doc/qutebrowser.1.asciidoc
 	install -Dm644 doc/qutebrowser.1 $PKG/usr/share/man/man1/qutebrowser.1
+
 	python3 setup.py build
 	python3 setup.py install --root=$PKG --optimize=1
+
 	rm -r $PKG/usr/lib/python3.6/site-packages/qutebrowser/html
+	rm -r $PKG/usr/lib/python3.6/site-packages/qutebrowser-$version-py3.6.egg-info
 }

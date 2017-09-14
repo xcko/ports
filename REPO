@@ -29,10 +29,10 @@ d:luarocks
 d:python3-jinja
 d:lua-socket
 d:fil-plugins
-f:d9eb43df30c09e5631ea932f70a6e2b2:qutebrowser/Pkgfile
+f:4f03f3c6efab4d088f1ddb9aab8aca52:qutebrowser/Pkgfile
 f:fe1209e455b8236c0f323a8144b55490:qutebrowser/.md5sum
-f:b458cbb5ab82ba1896d717a88db84013:qutebrowser/.signature
-f:ef1e23d30cd79e088ae59dcc7c7f1218:qutebrowser/.footprint
+f:713f87e6c70d6c19edcdcd239e81d26a:qutebrowser/.signature
+f:8d0e3fc30cac1dd645487d51fdd42147:qutebrowser/.footprint
 f:2874ebf92476e917d071a8a0fc0146f0:python3-virtualenv/Pkgfile
 f:809f43136ead4d1e2a94e093f5ec69a5:python3-virtualenv/.md5sum
 f:ebdb22db0e6b424810498d1ea65cc0dd:python3-virtualenv/.signature
