@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xcko.pub
+RWRiSEuMHB8j9aPkyztusadRGa9h+H2yPrf1ICt9YMtJaMYj3aVb9lZs8dh1TcDb91pw6FpELa//rf5EXXiWosxDYkZAcG/ZjQg=
+SHA256 (Pkgfile) = dc7fb80c98847ec3afba40e8a6cf4765e27563675f359c4aae1aba685beb1838
+SHA256 (.footprint) = 6e9f0f89024663921dcfb41f2c4476640d0d1cd8755077b6a277803d34d48b55
+SHA256 (luasec-0.6.tar.gz) = cef3a35c18beb8a54d9c8ce6260a4cabbd9a386de8711320d084daffad0aed5d

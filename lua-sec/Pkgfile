@@ -1,0 +1,21 @@
+# Description: OpenSSL bindings for Lua 5.3
+# URL:         https://github.com/brunoos/luasec
+# Maintainer:  xcko, xcko at bitmessage dot ch
+# Depends on:  openssl lua lua-socket
+
+name=lua-sec
+version=0.6
+release=1
+source=(https://github.com/brunoos/luasec/archive/luasec-$version.tar.gz)
+
+build() {
+	cd luasec-luasec-$version
+
+	cd src
+	lua options.lua -g /usr/include/openssl/ssl.h > options.h
+	cd ../
+
+	make linux DEFS="-DWITH_LUASOCKET"
+	install -dm755 $PKG/usr/lib/lua/5.3
+	make LUACPATH=$PKG/usr/lib/lua/5.3 LUAPATH=$PKG/usr/share/lua/5.3 install
+}

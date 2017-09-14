@@ -19,6 +19,7 @@ d:streamripper
 d:python3-markupsafe
 d:nvi
 d:rev-plugins
+d:lua-sec
 d:python3-hypothesis
 d:python3-tox
 d:vco-plugins
@@ -112,6 +113,10 @@ f:b3560522114e0d22fcb0d11f068d88c0:rev-plugins/Pkgfile
 f:3178b607c9fa534ebcce59721f7d187d:rev-plugins/.md5sum
 f:0c530ad111e19ef944a0d3d921e0ffe7:rev-plugins/.signature
 f:52b658e3c8e52121a94b4a9af11b8146:rev-plugins/.footprint
+f:d163f31c0fbecb400285442a4c90e8ba:lua-sec/Pkgfile
+f:6d65bf5399c0ce3cccdaa245ee26665a:lua-sec/.md5sum
+f:4ed0b758f60210e507fca0814e04b258:lua-sec/.signature
+f:ae1e402b97443bfeef198ef970a04577:lua-sec/.footprint
 f:5fbf90bdef94ec49d5dc8de4e8b7334b:xcko.pub
 f:5566067095f582a2c1a870e6c5f51ebe:python3-hypothesis/Pkgfile
 f:3b26298aac4e280e384becb2f5829317:python3-hypothesis/.md5sum
