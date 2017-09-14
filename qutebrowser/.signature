@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/xcko.pub
-RWRiSEuMHB8j9YgMJ1WXHHsjx5Evnw4mBKR5LddqfJsb2m1OLFMC7uVhcw7efNCubRp+2VuARhN4eAs7Ec4IF1ftdz6BQGQ0aAo=
+RWRiSEuMHB8j9YYQOL4P2Uh62Eaw/sKgJq7LRQ8t3qY49x1K74v6NJCBXkLdI4+ILYfza4U8/5awi9eqh2x1XsMb1xIJJ8hqxQc=
+SHA256 (Pkgfile) = 66fa17ec465744db6e7ae34a0ef224cc420dcee15ab094b5d2ff80354c287bea
+SHA256 (.footprint) = 1ca908ff14c84841fd66e5bbb977d1bda0f794b03c051913f4102a4a77c568ba
+SHA256 (qutebrowser-0.11.0.tar.gz) = dbb7de2d54f3849b03db11c2417a725ab8bf26a8f7f48bfa36ad852a8de9308e

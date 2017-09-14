@@ -29,9 +29,9 @@ d:luarocks
 d:python3-jinja
 d:lua-socket
 d:fil-plugins
-f:e76f6cbe222edaf9c2f6852ea0f99710:qutebrowser/Pkgfile
-f:02dabea41d0f4b20f4d22c3eeb1ef7c0:qutebrowser/.md5sum
-f:ebdb22db0e6b424810498d1ea65cc0dd:qutebrowser/.signature
+f:d9eb43df30c09e5631ea932f70a6e2b2:qutebrowser/Pkgfile
+f:fe1209e455b8236c0f323a8144b55490:qutebrowser/.md5sum
+f:b458cbb5ab82ba1896d717a88db84013:qutebrowser/.signature
 f:ef1e23d30cd79e088ae59dcc7c7f1218:qutebrowser/.footprint
 f:2874ebf92476e917d071a8a0fc0146f0:python3-virtualenv/Pkgfile
 f:809f43136ead4d1e2a94e093f5ec69a5:python3-virtualenv/.md5sum
@@ -81,9 +81,9 @@ f:810c819530847825e60d58f72fb408c7:lua-posix/Pkgfile
 f:4fa79d3fff45e26fd23a6a69b0abd495:lua-posix/.md5sum
 f:b5920a15774d1034e575f35c0b4cccc2:lua-posix/.signature
 f:6d05d87c5d882f6eb109249a394f93c5:lua-posix/.footprint
-f:00cec2f6bf0d38e841123912e4e47396:python3-pyqt5/Pkgfile
-f:095ee85e52e7541d935124a3ed97a019:python3-pyqt5/.md5sum
-f:ebdb22db0e6b424810498d1ea65cc0dd:python3-pyqt5/.signature
+f:7206e59c13179281e5629627f76bede7:python3-pyqt5/Pkgfile
+f:eaa733368a1739b3c8d18e2bde5c2d47:python3-pyqt5/.md5sum
+f:44d6c7cd3f627adde5f7a3780c092124:python3-pyqt5/.signature
 f:1fcc5c642fb0c267b30cf4fe32ae7298:python3-pyqt5/.footprint
 f:60f2396e7e73ee325fc1e7a90a377543:python3-sip/Pkgfile
 f:e0f3bdd91db551eac77c504adceb5af3:python3-sip/.md5sum
