@@ -14,6 +14,7 @@ d:lua-posix
 d:python3-pyqt5
 d:python3-sip
 d:python3-pyyaml
+d:python3-opengl
 d:mimi
 d:streamripper
 d:python3-markupsafe
@@ -29,9 +30,9 @@ d:luarocks
 d:python3-jinja
 d:lua-socket
 d:fil-plugins
-f:4f03f3c6efab4d088f1ddb9aab8aca52:qutebrowser/Pkgfile
+f:7cdc1f7aae3a76e1d1101d16728cb0ae:qutebrowser/Pkgfile
 f:fe1209e455b8236c0f323a8144b55490:qutebrowser/.md5sum
-f:713f87e6c70d6c19edcdcd239e81d26a:qutebrowser/.signature
+f:496c733a8e04059db7e8335efcb26a31:qutebrowser/.signature
 f:8d0e3fc30cac1dd645487d51fdd42147:qutebrowser/.footprint
 f:2874ebf92476e917d071a8a0fc0146f0:python3-virtualenv/Pkgfile
 f:809f43136ead4d1e2a94e093f5ec69a5:python3-virtualenv/.md5sum
@@ -93,6 +94,10 @@ f:f09c44f829ccf19261bb7a6cb32c7d09:python3-pyyaml/Pkgfile
 f:8aa338389e37d1c05a63f0134287fe6a:python3-pyyaml/.md5sum
 f:ebdb22db0e6b424810498d1ea65cc0dd:python3-pyyaml/.signature
 f:70407c9df8458788a964aa16ac45fe1f:python3-pyyaml/.footprint
+f:151529cbe56f88233601d4fa15f9ba1c:python3-opengl/Pkgfile
+f:d31e319f1af5933ed9d9f70336cc2472:python3-opengl/.md5sum
+f:5bb7b3f2e982c9b50aae073f9c7ab07f:python3-opengl/.signature
+f:794b98a7a54eee50f5a4145fa038a5ee:python3-opengl/.footprint
 f:2727d25baa4f6d9ef9cd966c515109b1:mimi/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:mimi/.md5sum
 f:ebdb22db0e6b424810498d1ea65cc0dd:mimi/.signature

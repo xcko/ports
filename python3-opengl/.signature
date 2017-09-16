@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xcko.pub
+RWRiSEuMHB8j9bEKSGOn+BGhHYjGaeJOL38y7bR+Uds8aVPwehcRrIgLwvLsVsiQbJWLEm7X0Dnt0+XF+GFKKSVm28Nr+Rbi8AU=
+SHA256 (Pkgfile) = 19a4606addef3bbb9f1f23ca4286020eacc1b179a6baea9d767b5d538643a1bb
+SHA256 (.footprint) = 1b64ba0be3b3621e6289f55d7faad69d898fa24c3a5aa887c1a30f21fd039c55
+SHA256 (PyOpenGL-3.1.0.tar.gz) = 9b47c5c3a094fa518ca88aeed35ae75834d53e4285512c61879f67a48c94ddaf

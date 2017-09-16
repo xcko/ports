@@ -1,0 +1,15 @@
+# Description: Python3 bindings to OpenGL and related APIs
+# URL:         http://pyopengl.sourceforge.net/
+# Maintainer:  xcko at bitmessage dot ch
+# Depends on:  freeglut python3-setuptools
+
+name=python3-opengl
+version=3.1.0
+release=1
+source=(http://pypi.python.org/packages/source/P/PyOpenGL/PyOpenGL-$version.tar.gz)
+
+build() {
+	cd PyOpenGL-$version
+
+	python3 setup.py install --root=$PKG --optimize=1
+}
