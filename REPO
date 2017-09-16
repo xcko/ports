@@ -32,8 +32,8 @@ d:lua-socket
 d:fil-plugins
 f:c74bb0b8bb4cc7bd43d2e6ed47a4e046:qutebrowser/Pkgfile
 f:fe1209e455b8236c0f323a8144b55490:qutebrowser/.md5sum
-f:51cabfba7f458196e002bc5c96895839:qutebrowser/.signature
-f:8d0e3fc30cac1dd645487d51fdd42147:qutebrowser/.footprint
+f:416f8faf97ac6c5596c0e29916fc595b:qutebrowser/.signature
+f:b4dfa8d6b81e6c48487ead6cb9d5ca44:qutebrowser/.footprint
 f:2874ebf92476e917d071a8a0fc0146f0:python3-virtualenv/Pkgfile
 f:809f43136ead4d1e2a94e093f5ec69a5:python3-virtualenv/.md5sum
 f:ebdb22db0e6b424810498d1ea65cc0dd:python3-virtualenv/.signature
