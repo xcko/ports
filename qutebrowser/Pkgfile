@@ -18,5 +18,4 @@ build() {
 	python3 setup.py install --root=$PKG --optimize=1
 
 	rm -r $PKG/usr/lib/python3.6/site-packages/qutebrowser/html
-	rm -r $PKG/usr/lib/python3.6/site-packages/qutebrowser-$version-py3.6.egg-info
 }
