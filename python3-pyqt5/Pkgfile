@@ -1,7 +1,7 @@
 # Description: Python bindings for Qt5 and qtwebengine
 # URL: http://riverbankcomputing.co.uk/software/pyqt/intro
 # Maintainer: xcko, xcko at bitmessage dot ch
-# Depends on: python3 python3-setuptools python3-sip qt5 qtwebengine
+# Depends on: python3 python3-setuptools python3-sip python3-opengl qt5 pqtwebengine
 
 name=python3-pyqt5
 version=5.9

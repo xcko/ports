@@ -82,9 +82,9 @@ f:810c819530847825e60d58f72fb408c7:lua-posix/Pkgfile
 f:4fa79d3fff45e26fd23a6a69b0abd495:lua-posix/.md5sum
 f:b5920a15774d1034e575f35c0b4cccc2:lua-posix/.signature
 f:6d05d87c5d882f6eb109249a394f93c5:lua-posix/.footprint
-f:7206e59c13179281e5629627f76bede7:python3-pyqt5/Pkgfile
+f:813d05c5f88a1d4a9e50ff8a26e253f1:python3-pyqt5/Pkgfile
 f:eaa733368a1739b3c8d18e2bde5c2d47:python3-pyqt5/.md5sum
-f:c9a33c0995751b8c949d406acddfb674:python3-pyqt5/.signature
+f:69c2ab46d2b01b6924e0fd4de442da67:python3-pyqt5/.signature
 f:10ad66a44400c5db4426a2162d492d7a:python3-pyqt5/.footprint
 f:ba4dbeec70d093036fc120b46b8ddb7d:python3-sip/Pkgfile
 f:0648c69753c560f48da017d1162388dd:python3-sip/.md5sum

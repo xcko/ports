@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xcko.pub
-RWRiSEuMHB8j9RfqDX7PfO9Fu93JUk6kYjipf7rxuxVmirZZk8/XIdoNNt+ibZuJl3RzMO+gownDOoNZRgHlc3vjIvomEeiSsAM=
-SHA256 (Pkgfile) = 859f5393a7dab61f10c1adb21aca7a8ca1ca800bd3cd9cebb26279829df5c9b1
+RWRiSEuMHB8j9Qjq4PLQrF6ISRjTYhwElswhhEzfKy8w3lafWNJiu7rvg/q65KV58CD5TUrpj6rf/qUih6Cg4YrreKCrrS8w0QM=
+SHA256 (Pkgfile) = 0d537f8aec569674fbad8c0c3fe75de726d3dfe59d4275c154c3f76f4766ce12
 SHA256 (.footprint) = 7e82773be191eb824ceb7499cf2968cd5799a4d9f051b4c38ef3dfb64823ed52
 SHA256 (PyQt5_gpl-5.9.tar.gz) = ab0e7999cf202cc72962c78aefe461d16497b3c1a8282ab966ad90b6cb271096
