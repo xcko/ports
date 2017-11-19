@@ -18,8 +18,6 @@ build() {
 	make
 	install -Dm755 nvi $PKG/usr/bin/nvi
 	install -Dm755 nex $PKG/usr/bin/nex
-	ln -sr $PKG/usr/bin/nvi $PKG/usr/bin/vi
-	ln -sr $PKG/usr/bin/nex $PKG/usr/bin/ex
 	cd ../docs/USD.doc/vi.man
 	install -Dm644 vi.1 $PKG/usr/share/man/man1/vi.1
 }

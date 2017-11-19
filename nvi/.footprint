@@ -1,10 +1,8 @@
-drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/bin/
-lrwxrwxrwx	root/root	usr/bin/ex -> nex
--rwxr-xr-x	root/root	usr/bin/nex
--rwxr-xr-x	root/root	usr/bin/nvi
-lrwxrwxrwx	root/root	usr/bin/vi -> nvi
-drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/man/
-drwxr-xr-x	root/root	usr/share/man/man1/
--rw-r--r--	root/root	usr/share/man/man1/vi.1.gz
+drwxr-xr-x	xcko/users	usr/
+drwxr-xr-x	xcko/users	usr/bin/
+-rwxr-xr-x	xcko/users	usr/bin/nex
+-rwxr-xr-x	xcko/users	usr/bin/nvi
+drwxr-xr-x	xcko/users	usr/share/
+drwxr-xr-x	xcko/users	usr/share/man/
+drwxr-xr-x	xcko/users	usr/share/man/man1/
+-rw-r--r--	xcko/users	usr/share/man/man1/vi.1.gz
