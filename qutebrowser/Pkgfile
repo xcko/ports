@@ -1,7 +1,7 @@
 # Description: Vi like web browser, with qtwebengine backend
 # URL: http://www.qutebrowser.org
 # Maintainer: xcko, xcko at bitmessage dot ch
-# Depends on: python3 python3-setuptools python3-pyyaml python3-jinja python3-pypeg python3-pygments python3-pyqt5 python3-opengl qtwebengine asciidoc
+# Depends on: python3-attrs python3-pyyaml python3-jinja python3-pypeg python3-pygments python3-pyqt5 python3-opengl qtwebengine asciidoc
 
 name=qutebrowser
 version=1.0.3
