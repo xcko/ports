@@ -11,5 +11,5 @@ source=(http://pypi.python.org/packages/source/P/PyOpenGL/PyOpenGL-$version.tar.
 build() {
 	cd PyOpenGL-$version
 
-	python3 setup.py install --root=$PKG --optimize=1
+	/usr/bin/python3 setup.py install --root=$PKG --optimize=1
 }

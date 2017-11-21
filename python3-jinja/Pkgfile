@@ -10,5 +10,5 @@ source=(https://pypi.org/packages/source/J/Jinja2/Jinja2-$version.tar.gz)
 
 build() {
 	cd Jinja2-$version
-	python3 setup.py install --root=$PKG --optimize=1
+	/usr/bin/python3 setup.py install --root=$PKG --optimize=1
 }

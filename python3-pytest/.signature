@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/xcko.pub
-RWRiSEuMHB8j9YgMJ1WXHHsjx5Evnw4mBKR5LddqfJsb2m1OLFMC7uVhcw7efNCubRp+2VuARhN4eAs7Ec4IF1ftdz6BQGQ0aAo=
+RWRiSEuMHB8j9Ww+lPVEjBT4vqWrfN3eHTvA8KeAooPEqc1zyp/Bj3Jdfc9dK3h2CkhwWg4MaAax8eZ1BC+BLaI/bKQvA4xwegs=
+SHA256 (Pkgfile) = bdbfe1a0cac9136fcc735a2dfafdcb6955c0cda551b185cfaf875809534754c3
+SHA256 (.footprint) = 0602fbe50f8fba97212a420d571417a3c7eba0715545e2024cb63e84e4a25e05
+SHA256 (3.0.7.tar.gz) = debe8bc7b0747ae9e790e5f41b7b9db812f6895c70501207a97d18f2d77932a4

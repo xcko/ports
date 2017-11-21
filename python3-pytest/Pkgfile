@@ -10,7 +10,7 @@ source=(https://github.com/pytest-dev/pytest/archive/$version.tar.gz)
 
 build() {
 	cd pytest-$version
-	python3 setup.py build
-	#python3 setup.py test
-	python3 setup.py install --root=$PKG --optimize=1
+	/usr/bin/python3 setup.py build
+	#/usr/bin/python3 setup.py test
+	/usr/bin/python3 setup.py install --root=$PKG --optimize=1
 }

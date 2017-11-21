@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/xcko.pub
-RWRiSEuMHB8j9YgMJ1WXHHsjx5Evnw4mBKR5LddqfJsb2m1OLFMC7uVhcw7efNCubRp+2VuARhN4eAs7Ec4IF1ftdz6BQGQ0aAo=
+RWRiSEuMHB8j9cNqj3jzK2O5aXmFvNk0LNg7KiqEAfr9V0tFT/9OhUQBSQnmJ6wpQVURZ5KYhfUk6dTT+yf0l42hW6NtQXNmZA8=
+SHA256 (Pkgfile) = c7872d70efc8604d743d6c814cc315eac4289dd4d6a089dab6a11d5e86ba3fa0
+SHA256 (.footprint) = d4177779448b604efb23e847aa25f59855eedea6934de9241a2d84e98263b03a
+SHA256 (Jinja2-2.9.6.tar.gz) = ddaa01a212cd6d641401cb01b605f4a4d9f37bfc93043d7f760ec70fb99ff9ff

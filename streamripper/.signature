@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/xcko.pub
-RWRiSEuMHB8j9YgMJ1WXHHsjx5Evnw4mBKR5LddqfJsb2m1OLFMC7uVhcw7efNCubRp+2VuARhN4eAs7Ec4IF1ftdz6BQGQ0aAo=
+RWRiSEuMHB8j9YtLyicreFSyCBEMNnGX5Q4azvX86uRip3Yrty+jZsfbiNY0LcunMcgsuTs00+GtN/N4pKR+c5/f558ccHwtQQA=
+SHA256 (Pkgfile) = ef8b569e7c62035895eea5afd3b181a433de89fd32191e9c425509febca621bc
+SHA256 (.footprint) = 9659891457e846c41a9c3946cd8f725449d95ad2a19ccffcae77a753931e56fe
+SHA256 (streamripper-1.64.6.tar.gz) = c1d75f2e9c7b38fd4695be66eff4533395248132f3cc61f375196403c4d8de42

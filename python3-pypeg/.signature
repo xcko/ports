@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/xcko.pub
-RWRiSEuMHB8j9YgMJ1WXHHsjx5Evnw4mBKR5LddqfJsb2m1OLFMC7uVhcw7efNCubRp+2VuARhN4eAs7Ec4IF1ftdz6BQGQ0aAo=
+RWRiSEuMHB8j9QNQQOZw53a95vPpH1yR6OtMcL7K30VwFOtTfUOTTtKwuMxvXIzK08CntKxSQUdlWQeS0ujyjUGgbPb8me2ruw8=
+SHA256 (Pkgfile) = b24c1c9aae7c768b08ab87ed69475db62e91edb35e9eecfc91811a467f41cb7c
+SHA256 (.footprint) = 5cbd00d79e0f8608d4bd3c87001e1ac175e8e1f03f31a634187408d83812f506
+SHA256 (pyPEG2-2.15.2.tar.gz) = 2b2d4f80d8e1a9370b2a91f4a25f4abf7f69b85c8da84cd23ec36451958a1f6d

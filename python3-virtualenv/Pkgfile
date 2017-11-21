@@ -10,5 +10,5 @@ source=(https://pypi.io/packages/source/v/virtualenv/virtualenv-${version}.tar.g
 
 build() {
     cd virtualenv-$version
-    python3 setup.py install --root=$PKG
+    /usr/bin/python3 setup.py install --root=$PKG
 }

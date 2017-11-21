@@ -10,6 +10,6 @@ source=(https://pypi.io/packages/source/p/pluggy/pluggy-$version.zip)
 
 build() {
 	cd pluggy-$version
-	python3 setup.py build
-	python3 setup.py install --root=$PKG --optimize=1
+	/usr/bin/python3 setup.py build
+	/usr/bin/python3 setup.py install --root=$PKG --optimize=1
 }

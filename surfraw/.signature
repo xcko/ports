@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/xcko.pub
-RWRiSEuMHB8j9YgMJ1WXHHsjx5Evnw4mBKR5LddqfJsb2m1OLFMC7uVhcw7efNCubRp+2VuARhN4eAs7Ec4IF1ftdz6BQGQ0aAo=
+RWRiSEuMHB8j9dJ6BTequ52g7ADlTf/vC2Z6kLS5XNtazXtCdh3lRCceapHetx2WAjwWkGvzlIWlzEbqstUYWubSH4iE6q/17QM=
+SHA256 (Pkgfile) = c2b4be5be0543b2b2f588a2828641b25656f55d462244889ecb6abb3859f501c
+SHA256 (.footprint) = d695d4212347d496837a25a5e3e94173aeb800decf744b244da010efdde91e95
+SHA256 (surfraw-2.2.8.tar.gz) = 925075e05637e39458b00e859193aacde306aafd9a962f44f5114f81713539ec

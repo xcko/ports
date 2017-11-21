@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/xcko.pub
-RWRiSEuMHB8j9YgMJ1WXHHsjx5Evnw4mBKR5LddqfJsb2m1OLFMC7uVhcw7efNCubRp+2VuARhN4eAs7Ec4IF1ftdz6BQGQ0aAo=
+RWRiSEuMHB8j9bOP857EjYtrrbe/959NSTojwlLqcp4Jc98G4b1j03jCmLzvel/0MiprBsYbKQSTNiDxlKGu9Q+i9pviLSjGNA4=
+SHA256 (Pkgfile) = 5387cdd7bb0f0f80e1e9abcca359b84eac1e3b36299c01fd7e75fd4eedd3f63a
+SHA256 (.footprint) = ae9935ae4ed624f94de63d903f148ae007c5a372901d54be42725a1ce1d40078
+SHA256 (PyYAML-3.12.tar.gz) = 592766c6303207a20efc445587778322d7f73b161bd994f227adaa341ba212ab

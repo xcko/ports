@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/xcko.pub
-RWRiSEuMHB8j9YgMJ1WXHHsjx5Evnw4mBKR5LddqfJsb2m1OLFMC7uVhcw7efNCubRp+2VuARhN4eAs7Ec4IF1ftdz6BQGQ0aAo=
+RWRiSEuMHB8j9Qu2qjixfkNSmVXaEwBYLlaVHsy2Kcwn1qHm6LEBMM2v7URjzqoDVBYAwvgko1jw+zOQ5S54u121rWnVVVP+3gg=
+SHA256 (Pkgfile) = fbe12f20eaed9f1789b98bc20f7c2d9f99f827792b8b16fda9f1b30b0b97e1fe
+SHA256 (.footprint) = b8cc3a9b6a2cba8ce9b70ac04bbeee6194a0566720ceea81e8a642fc12c39160
+SHA256 (Pygments-2.2.0.tar.gz) = dbae1046def0efb574852fab9e90209b23f556367b5a320c0bcb871c77c3e8cc

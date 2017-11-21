@@ -14,8 +14,8 @@ build() {
 	a2x -f manpage doc/qutebrowser.1.asciidoc
 	install -Dm644 doc/qutebrowser.1 $PKG/usr/share/man/man1/qutebrowser.1
 
-	python3 setup.py build
-	python3 setup.py install --root=$PKG --optimize=1
+	/usr/bin/python3 setup.py build
+	/usr/bin/python3 setup.py install --root=$PKG --optimize=1
 
 	rm -r $PKG/usr/lib/python3.6/site-packages/qutebrowser/html
 }

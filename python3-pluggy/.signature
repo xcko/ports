@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/xcko.pub
-RWRiSEuMHB8j9YgMJ1WXHHsjx5Evnw4mBKR5LddqfJsb2m1OLFMC7uVhcw7efNCubRp+2VuARhN4eAs7Ec4IF1ftdz6BQGQ0aAo=
+RWRiSEuMHB8j9Tt9t+PDgAlM0QvnwfNQN1YGMeT7Dc1nSnfPfxZwBCzOOqNn0VHVL35iL5HlAvck4E6zgcpHcBwwgNDrdzJkNQM=
+SHA256 (Pkgfile) = ca0836dff2f561c74dcd0d1262fdcee35f1a30a6832dc88cdc394b8a8e562c6a
+SHA256 (.footprint) = a25136663e55dac019e3b0964756d3278d449dc99fa3aca5d86fd245f9f3da09
+SHA256 (pluggy-0.4.0.zip) = dd841b5d290b252cf645f75f3bd37ceecfa0f36394ab313e4f785fe68a4081a4

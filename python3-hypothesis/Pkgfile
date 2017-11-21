@@ -10,6 +10,6 @@ source=(https://github.com/HypothesisWorks/hypothesis-python/archive/$version.ta
 
 build() {
 	cd hypothesis-python-$version
-	python3 setup.py build
-	python3 setup.py install --root=$PKG --optimize=1
+	/usr/bin/python3 setup.py build
+	/usr/bin/python3 setup.py install --root=$PKG --optimize=1
 }
