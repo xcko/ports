@@ -4,7 +4,7 @@
 # Depends on: python3
 
 name=python3-sip
-version=4.19.3
+version=4.19.4
 release=1
 source=(http://sourceforge.net/projects/pyqt/files/sip/sip-$version/sip-$version.tar.gz)
 
