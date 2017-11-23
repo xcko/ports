@@ -1,6 +1,6 @@
 # Description: Python3 bindings to OpenGL and related APIs
 # URL:         http://pyopengl.sourceforge.net/
-# Maintainer:  xcko at bitmessage dot ch
+# Maintainer:  xcko, xcko at bitmessage dot ch
 # Depends on:  freeglut python3-setuptools
 
 name=python3-opengl
