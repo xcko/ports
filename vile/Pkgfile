@@ -1,0 +1,18 @@
+# Description: vi-like editor based on microemacs 
+# URL: http://invisible-island.net/vile/
+# Maintainer: xcko, xcko at bitmessage dot ch
+# Depends on:
+
+name=vile
+version=9.8
+release=1
+source=(ftp://ftp.invisible-island.net/vile/$name.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure \
+		--prefix=/usr \
+		--mandir=/usr/share/man 
+	make
+	make DESTDIR=$PKG install
+}
