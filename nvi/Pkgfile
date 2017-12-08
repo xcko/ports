@@ -19,5 +19,5 @@ build() {
 	install -Dm755 nvi $PKG/usr/bin/nvi
 	install -Dm755 nex $PKG/usr/bin/nex
 	cd ../docs/USD.doc/vi.man
-	install -Dm644 vi.1 $PKG/usr/share/man/man1/vi.1
+	install -Dm644 vi.1 $PKG/usr/share/man/man1/nvi.1
 }
