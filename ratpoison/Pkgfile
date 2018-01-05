@@ -1,0 +1,19 @@
+# Description: Simple window manager modelled after gnu screen
+# URL: http://nongnu.org/ratpoison/
+# Maintainer: xcko, xcko at airmail dot cc
+# Depends on:
+
+name=ratpoison
+version=1.4.9
+release=1
+source=(http://download.savannah.nongnu.org/releases/ratpoison/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/share/doc
+	rm -r $PKG/usr/share/info
+}
